@@ -33,6 +33,9 @@ h1,h2,h3,h4 {
 	font-family: Georgia;
 	font-size: 1.7em;
 }
+.font-red2 {
+	color: red;
+}
 .thicker-h1 {
 	font-family: Georgia;
 	font-size: 14em;
@@ -42,6 +45,21 @@ h1,h2,h3,h4 {
 	font-family: Bookman;
 	font-size: 4em;
 }
+.thicker-h3 {
+	font-family: Bookman;
+	font-size: 1.6em;
+}
+.gallery-table {
+	width: 600px;
+	border: 1px solid gray;
+}
+.imageborder {
+	border: 4px solid gray;
+}
+.imageborder2 {
+	border: 2px solid gray;
+}
+
 h2 {
 	font-size: 2.7em;
 }
@@ -256,6 +274,7 @@ ul h4 {
 }
 
 #sidebar a {
+	text-decoration: none;
 	color: #F1EDEA;
 }
 
@@ -284,8 +303,8 @@ ul h4 {
 
 #style
      .onclass {
-     width:1234px; /* use your actual large image width */
+     width:1234px; 
 }
      .offclass {
-     width: 100px; /* use the starting image width */
+     width: 100px;
 }
